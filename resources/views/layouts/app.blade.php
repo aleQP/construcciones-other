@@ -66,9 +66,12 @@ git status
 
 git commit -m "mensaje"  - -author="aleQP <alejandro_pablo13@hotmail.com>"
 
+//subiendo todos los cambios locales al servidor remoto de github.
+git push -f origin master
+git push -u origin master
+git push origin master
+
 //Cuando realizamos cambios directamente en github pero no de forma local, con pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
 git pull
-
-//subiendo todos los cambios locales al servidor remoto de github.
-git push -f origin master --}}
+ --}}
 
