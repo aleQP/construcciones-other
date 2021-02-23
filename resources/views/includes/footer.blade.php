@@ -1,4 +1,4 @@
-<footer id="footer" role="contentinfo">
+<footer id="footer" role="contentinfo" style="background:#cdc9c3;">
 	<div class="container">
 	 	<div class="row">
 	    	<div class="col-sm-2">

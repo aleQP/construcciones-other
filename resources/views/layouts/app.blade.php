@@ -30,7 +30,7 @@
                 <div class="navbar-header">
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                    <a class="navbar-brand" href="index.html">Construcciones - MyTwrs</a>
+                    <a class="navbar-brand" href="/">Construcciones - MyTwrs</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav navbar-right">
@@ -38,6 +38,10 @@
                     <li><a href="#" data-nav-section="about"><span>Nosotros</span></a></li>
                     <li><a href="#" data-nav-section="features"><span>Proyectos</span></a></li>
                     <li><a href="#" data-nav-section="services"><span>Servicios</span></a></li>
+                    <li><a href="#" data-nav-section="pricing"><span>Contáctenos</span></a></li>
+
+                    {{-- <li><a href="{{route('comment')}}" ><span>Contáctenos</span></a></li> --}}
+
                   </ul>
                 </div>
                 </nav>
@@ -70,6 +74,7 @@ git commit -m "mensaje"  - -author="aleQP <alejandro_pablo13@hotmail.com>"
 git push -f origin master
 git push -u origin master
 git push origin master
+git push
 
 //Cuando realizamos cambios directamente en github pero no de forma local, con pull, donde descargaremos los cambios realizados para seguir trabajando normalmente.
 git pull
